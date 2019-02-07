@@ -1,0 +1,12 @@
+# distributed-systems-exercises
+
+A list of starter exercises for Distributed Systems, inspired by reading lists like [awesome-distributed-systems](https://github.com/theanalyst/awesome-distributed-systems), but with a more practical focus.
+
+The exercises are taken from various university courses on Distributed Systems. I don't plan to follow the instructions exactly as given - they may rely on tools that aren't available outside the university, and they use a variety of languages where I'd prefer to stick to one or two. However, I still find them useful to provide a bit more structure to each task.
+
+| Exercise | Reading |
+| --- | --- |
+| [Vector clocks](https://www.cs.helsinki.fi/u/jakangas/Teaching/DSP-11/DSP-Assignment2.pdf) (part 1 only) from the University of Helsinki | - [Chapter 3: Time and Order](http://book.mixu.net/distsys/time.html) from Distributed systems for fun and profit<br>- [Vector clock](https://en.wikipedia.org/wiki/Vector_clock) (Wikipedia)<br>- [Why Vector Clocks are Easy](http://basho.com/posts/technical/why-vector-clocks-are-easy/) / [Why Vector Clocks are Hard](http://basho.com/posts/technical/why-vector-clocks-are-hard/) - 2 articles from Basho Technologies |
+| [Two phase commit](https://courses.cs.washington.edu/courses/csep552/13sp/assignments/a2.html) from the University of Washington |- [Chapter 4: Replication](http://book.mixu.net/distsys/replication.html) from Distributed systems for fun and profit<br>- [Concurrency control and recovery in database systems](https://courses.cs.washington.edu/courses/cse551/09au/papers/CSE550BHG-Ch7.pdf) (original paper)<br>- [Consensus Protocols: Two-Phase Commit](https://www.the-paper-trail.org/post/2008-11-27-consensus-protocols-two-phase-commit/) from The Paper Trail
+| [Paxos-based Key/Value Service](https://columbia.github.io/ds1-class/homeworks/Assignment3/) from Columbia University | - [Paxos made simple](https://lamport.azurewebsites.net/pubs/paxos-simple.pdf)<br>- [Paxos Made Live: An Engineering Perspective](https://www.cs.utexas.edu/users/lorenzo/corsi/cs380d/papers/paper2-1.pdf)<br>- [Consensus Protocols: Paxos](https://www.the-paper-trail.org/post/2009-02-03-consensus-protocols-paxos/) from The Paper Trail |
+| [Raft Leader Election](https://www.cs.princeton.edu/courses/archive/fall16/cos418/a3.html) from Princeton University | - [The Raft Consensus Algorithm](https://raft.github.io/)<br>- [Raft: Understandable Distributed Consensus](http://thesecretlivesofdata.com/raft/) (visualization)|
